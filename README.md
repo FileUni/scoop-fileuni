@@ -1,9 +1,16 @@
 # scoop-fileuni
 
-Scoop bucket for FileUni.
+Official Scoop bucket for FileUni CLI.
 
-This repository is maintained from the FileUni workspace via `git subtree`.
-Do not edit files here directly in downstream clones unless you also update the workspace source.
+This repository is maintained from `FileUni-WorkSpace` via `git subtree`.
+Do not edit this repository directly unless you also update the workspace source.
+
+## What You Get
+
+- Manifest: `fileuni`
+- Supported platforms:
+  - Windows x64
+  - Windows x86
 
 ## Install
 
@@ -11,3 +18,38 @@ Do not edit files here directly in downstream clones unless you also update the 
 scoop bucket add fileuni https://github.com/FileUni/scoop-fileuni
 scoop install fileuni/fileuni
 ```
+
+## Upgrade
+
+```powershell
+scoop update
+scoop update fileuni
+```
+
+## Verify
+
+```powershell
+fileuni --help
+```
+
+## Uninstall
+
+```powershell
+scoop uninstall fileuni
+```
+
+## Files
+
+- Manifest: `bucket/fileuni.json`
+- Install guide: `INSTALL.md`
+
+## Release Source
+
+Scoop packages are generated from FileUni GitHub Release assets published at:
+
+- `https://github.com/FileUni/FileUni-Project/releases`
+
+## License
+
+This package is distributed under FileUni's proprietary/community source licensing terms.
+See `LICENSE` in the upstream project repository for details.
