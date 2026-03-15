@@ -52,5 +52,5 @@ If you want to inspect the active manifest:
 
 ```powershell
 scoop info fileuni
-cat "$HOME\scoop\buckets\fileuni\bucket\fileuni.json"
+cat "$HOME\\scoop\\buckets\\fileuni\\bucket\\fileuni.json"
 ```
