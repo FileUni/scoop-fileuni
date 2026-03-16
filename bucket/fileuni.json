@@ -1,5 +1,5 @@
 {
-  "version": "0.0.4-alpha.3.20260316152346",
+  "version": "0.0.4-alpha.4.20260316172913",
   "description": "FileUni CLI",
   "homepage": "https://fileuni.com",
   "license": {
@@ -8,12 +8,12 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.4-alpha.3_20260316152346/FileUni-cli-x86_64-windows-msvc.exe.zip",
-      "hash": "193c26feb3bc1d4148e20ade21ca23f232e1b44bea28daea3d7c426f5eddb883"
+      "url": "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.4-alpha.4_20260316172913/FileUni-cli-x86_64-windows-msvc.exe.zip",
+      "hash": "867b040bdc13c3747da7428c2e46716e9ecd079e62815a62903fda6b0dd491fe"
     },
     "32bit": {
-      "url": "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.4-alpha.3_20260316152346/FileUni-cli-x86_32-windows-msvc.exe.zip",
-      "hash": "241247ec17926f7ab87b1fcfe1cd78d442587e956938a657d0f55dd7f0a18efd"
+      "url": "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.4-alpha.4_20260316172913/FileUni-cli-x86_32-windows-msvc.exe.zip",
+      "hash": "17b61faa32f29ee607b88e0de485c33d2b19598f26625aae176f604cecf003ab"
     }
   },
   "bin": "fileuni.exe",
